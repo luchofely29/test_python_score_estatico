@@ -27,19 +27,6 @@ def get_version() -> str:
 # Esperado : 100 - 10 = 90 pts  (2 violaciones × -5 pts)
 # =============================================================================
 import os
-import sys
-import sys
-import sys
-import sys
-import sys
-import sys
-import sys
-import sys
-import sys
-import sys
-import sys
-import sys
-import sys
 
 
 # =============================================================================
