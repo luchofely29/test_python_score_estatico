@@ -26,8 +26,8 @@ def get_version() -> str:
 # Acción   : Descomentar las 2 líneas de import debajo.
 # Esperado : 100 - 10 = 90 pts  (2 violaciones × -5 pts)
 # =============================================================================
- import os
- import sys
+ #import os
+ #import sys
 
 
 # =============================================================================
@@ -36,10 +36,10 @@ def get_version() -> str:
 # Acción   : Descomentar la función completa (4 líneas debajo).
 # Esperado : 100 - 5 = 95 pts  (1 violación × -5 pts)
 # =============================================================================
-# def dead_variable_example() -> int:
-#     """Función con variable local asignada pero sin uso."""
-#     unused_result = calculate_sum(1, 2)
-#     return 0
+def dead_variable_example() -> int:
+     """Función con variable local asignada pero sin uso."""
+     unused_result = calculate_sum(1, 2)
+     return 0
 
 
 # =============================================================================
