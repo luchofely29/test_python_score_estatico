@@ -26,7 +26,8 @@ def get_version() -> str:
 # Acción   : Descomentar las 2 líneas de import debajo.
 # Esperado : 100 - 10 = 90 pts  (2 violaciones × -5 pts)
 # =============================================================================
-import os
+#import os
+#import sys
 
 
 # =============================================================================
@@ -58,10 +59,10 @@ import os
 # Acción   : Descomentar la función completa (4 líneas debajo).
 # Esperado : 100 - 0.4 = 99.6 pts  (2 violaciones × -0.2 pts)
 # =============================================================================
-# def operator_no_spaces(value: int) -> int:
-#     """Sin espacios alrededor de operadores '=' y '+'."""
-#     result=value+1
-#     return result
+def operator_no_spaces(value: int) -> int:
+     """Sin espacios alrededor de operadores '=' y '+'."""
+     result=value+1
+     return result
 
 
 # =============================================================================
