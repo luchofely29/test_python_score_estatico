@@ -36,7 +36,7 @@ import sys
 # Acción   : Descomentar la función completa (4 líneas debajo).
 # Esperado : 100 - 5 = 95 pts  (1 violación × -5 pts)
 # =============================================================================
-#def dead_variable_example() -> int:
+# def dead_variable_example() -> int:
 #     """Función con variable local asignada pero sin uso."""
 #     unused_result = calculate_sum(1, 2)
 #     return 0
